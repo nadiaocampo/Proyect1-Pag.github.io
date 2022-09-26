@@ -1,0 +1,123 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+nav {
+  background-color: #333 ;
+  font-size: 1.2rem;
+  color: #ffffff;
+}
+.navbar-brand{
+  color: #ffffff;
+  font-size: 1.5rem;
+}
+
+
+.parrafoprincipal{
+  color: #ffffff;
+  font-size: 1.2rem;
+  position: relative;
+}
+.titsecundario{
+  color: #ffffff;
+  font-size: 2.1rem;
+  font-style:bold;
+  }
+.main-container {
+  flex-direction: column;
+  margin-left: 30%;
+  margin-right: 7rem;
+  margin-bottom: 8rem;
+}
+article {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("./img/hawaii.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 43rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: flex-end;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  text-align: right;
+}
+
+
+section {
+  flex-direction: column;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.oradores {
+  width: 100%;
+  justify-content:center;
+  padding: 0px 0px;
+  text-align: left;
+  font-size: 14px;
+}
+.btn-info{
+  color: #ffffff;
+  font-weight: bold;
+  padding: 1%;
+}
+.btn-warning{
+  font-weight: bold;
+  padding: 1%;
+}
+.btn-secondary{
+  font-weight: bold;
+  padding: 1%;
+}
+.btn-danger{
+  font-weight: bold;
+  padding: 1%; 
+}
+
+
+.imagenhonolulu {
+  background-color: #333;
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-template-rows: 80%;
+  text-align: left;
+  color: #ffffff;
+  font-size: 14px;
+}
+.honolulu {
+  width: 99%;
+  height: 20rem;
+}
+
+
+footer {
+  display: flex;
+  background: #1b4f72;
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.form{
+  text-align: center;
+  font-size: 15px;
+}
+.btn-primary{
+  background-color: rgb(102, 180, 13);
+}
+
+
+footer ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+}
+footer ul li {
+  list-style: none;
+  display: inline-block;
+}
